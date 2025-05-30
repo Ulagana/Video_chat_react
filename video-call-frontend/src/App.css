@@ -1,0 +1,18 @@
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+}
